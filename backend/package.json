@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "backend/server.js",
+  "main": "server.js",
   "type": "module",
   "dependencies": {
     "cloudinary": "^1.29.0",
@@ -15,7 +15,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node backend/server.js",
+    "dev": "node server.js",
     "build": "npm i"
   },
   "author": "",
